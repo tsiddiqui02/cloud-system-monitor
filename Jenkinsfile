@@ -14,7 +14,7 @@ pipeline {
                 echo "building version ${NEW_VERSION}"
             }
         }
-ß
+        
         stage("test") {
 
             steps {
